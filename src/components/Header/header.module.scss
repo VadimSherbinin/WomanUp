@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 962px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.title {
+    text-align: left;
+    color: rgb(176, 63, 82);
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+
+    span {
+        display: block;
+        font-size: 24px;
+        color: rgb(91, 39, 48);
+        font-weight: 500;
+    }
+}
+
+.subTitle {
+    color: rgb(223, 149, 162);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+    span {
+        display: block;
+        font-size: 24px;
+        color: rgb(91, 39, 48);
+        font-weight: 500;
+        border: 1px solid rgb(41, 20, 24);
+        border-radius: 50px;
+        margin-top: 8px;
+        padding: 4px;
+    }
+}

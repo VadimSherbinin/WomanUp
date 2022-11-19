@@ -1,0 +1,42 @@
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background: rgb(183, 39, 63);
+    border: none;
+    border-radius: 15px;
+    color: rgb(236, 200, 206);
+    padding: 0px 30px;
+
+    &:hover {
+        background: rgb(183, 39, 99);
+    }
+
+    &:active {
+        opacity: 0.5;
+    }
+
+    &.completed {
+        background: rgb(41, 144, 41);
+
+        &:hover {
+            background: rgb(100, 150, 100);
+        }
+    }
+
+    &.chenged {
+        background: rgb(69, 69, 212);
+
+        &:hover {
+            background: rgb(94, 94, 169);
+        }
+    }
+
+    &.deleted {
+        background: rgb(190, 16, 16);
+
+        &:hover {
+            background: rgb(193, 74, 74);
+        }
+    }
+}

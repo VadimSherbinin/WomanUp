@@ -1,0 +1,41 @@
+.todoPanel {
+    display: block;
+    text-align: right;
+    padding: 20px 30px;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.label {
+    text-align: left;
+}
+
+.fieldTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: rgb(91, 39, 48);
+}
+
+.fieldItem {
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid rgb(41, 20, 24);
+}
+
+.container {
+    max-width: 962px;
+    margin: 0 auto;
+    background: rgb(201, 132, 147);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px rgba(35, 1, 9, 0.7);
+    margin-bottom: 30px;
+}
